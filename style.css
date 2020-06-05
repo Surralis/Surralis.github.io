@@ -1,3 +1,26 @@
 p{
     color: red;
 }
+
+div.item {
+ 
+    vertical-align: top;
+    display: inline-block;
+    
+    text-align: center;
+
+    width: 150px;
+    padding:80px;
+    
+
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
