@@ -1,5 +1,7 @@
 p{
+    font-size: 50px;
     color: red;
+    text-align: center;
 }
 
 div.item {
@@ -18,9 +20,15 @@ img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    box-shadow: 0px 0px 100px 20px  black;
    
 }
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
+    }
+span{
+    margin-left: 40px;
+    font-size: 20px;
+    
 }

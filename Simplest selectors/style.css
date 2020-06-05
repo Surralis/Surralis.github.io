@@ -1,0 +1,20 @@
+
+body{
+    font-weight: bold;
+}
+
+.big
+{color: blue;
+}
+
+.b326
+{ border: 1px green solid;
+}
+#b325
+{ border: 1px green solid;
+}
+
+p{
+    background: yellow;
+    font-weight: normal;
+}
