@@ -25,12 +25,18 @@ img {
     box-shadow: 0px 0px 100px 20px  black;
    
 }
+
+img:hover {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 1000px 20px  rgb(148, 179, 37);
+}
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
     }
 span{
-    margin-left: 40px;
+    margin-left: 60px;
     font-size: 20px;
     
 }

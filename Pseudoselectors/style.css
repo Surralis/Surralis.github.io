@@ -1,0 +1,14 @@
+body{
+    max-width: 300px;
+}
+
+p:hover{
+background-color: darkorange ;
+
+}
+
+p{
+    border: 1px black solid ;
+    padding: 20px;
+    margin:unset
+}
