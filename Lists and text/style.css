@@ -1,0 +1,32 @@
+h1 {
+  font-family: 'Nanum Pen Script', cursive;
+  text-shadow: #FC0 1px 0 10px;
+  font-size: 60px;
+  margin-bottom: -0.5cm;
+}
+h2 {
+
+ 
+  font-size: 30px;
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.win {
+ width: 150px;
+}
+.Clan {
+  font-size: 40px;
+  margin-bottom: 20px
+}
+.Char{
+background: white;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px red, 0 0 1em orange, 0 0 0.2em blue;
+}
+img {
+  width: 25%;
+  height: 25%;
+  margin-bottom: 20px;
+}
