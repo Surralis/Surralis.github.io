@@ -1,0 +1,42 @@
+body {
+  border: 7px solid #4285f4;
+  font-size: 0.7cm;
+  color: white;
+  padding: 1px;
+  width: 150px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  
+}
+.N {
+  background: #E67676;
+  width: 150px;
+  height:2cm;
+  padding:1px;
+  margin-left: -1px;
+  margin-top: -1px;
+  
+ 
+}
+.E {
+  background: rgba(122, 121, 19, 0.534);
+  width: 150px;
+  height:2cm;
+  padding:1px;
+  margin-left: -1px;
+}
+.S {
+  background: #A9E6E6;
+  width: 150px;
+  height:2cm;
+  padding:1px;
+  margin-left: -1px;
+}
+.W {
+  background: #7692E4;
+  width: 150px;
+  height:2cm;
+  padding:1px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}

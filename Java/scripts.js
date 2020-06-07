@@ -1,3 +1,16 @@
+//4th part
+
+
+
+
+$("button").click(() => {
+    $("Button").toggleClass ("hidden");
+})
+
+
+
+
+//From 1st part to the third
 console.log("JavaScript is working");
 let colors = ["orange", "blue", "red", "green"]
 
