@@ -15,6 +15,13 @@
     border-radius: 20px;
 }
 
+.button4 {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(25, 152, 211);
+}
+
 .reset {
     width: 300px;
     height: 50px;

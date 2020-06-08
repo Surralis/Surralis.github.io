@@ -5,8 +5,20 @@ $('.button1').on('click', () => {
 $('.button2').on('click', () => {
 $(".button1").text("Changed you!")});
 
+let a = $(".color").val();
+
+
+
+
+
 $('.button3').on('click', () => {
-  $("button").css("background","rgb(216, 169, 141)")});
+  $("button").css("background", $(".color").val() ,
+  $(".button3").prop('disabled', true))
+  });
 
 $('.reset').on('click', () => {
     location.reload()});
+
+
+
+
