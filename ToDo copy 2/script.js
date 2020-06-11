@@ -11,7 +11,10 @@ $("#shoppingForm").on('submit', function(e){
   $(".done").css("color","black")
   $(".done").css("background","green")
    $('#addToList').val('');
+   $(this).height($(this).height()+10);
   e.preventDefault();
+  $(".container").height("+=70px");
+  $(".container2").height("+=70px");
   a += 1
   
 
@@ -27,6 +30,8 @@ $("#shoppingForm").on('submit', function(e){
 
 $("#shoppingList").on('click', '.del',  function(){
   $(this).parent().remove();
+  $(".container").height("-=70px");
+  $(".container2").height("-=70px");
 });
 
 
