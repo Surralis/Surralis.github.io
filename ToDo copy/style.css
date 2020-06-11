@@ -4,7 +4,7 @@
     background: lightseagreen;
     margin: auto;
     display:flex;
-     justify-content:space-between;
+    justify-content:space-between;
 }
 
 .container2 {
@@ -21,7 +21,7 @@ h1 {
     font-size: 50px
 }
 
-.jfk{
+.stuff{
    margin-left: 50px;
    height: 50px;
    width: 300px;
@@ -30,10 +30,11 @@ h1 {
 .button1{
     background: pink;
     height: 55px;
+    width: 60px;
   
    }
 
-   ul  {
+   #shoppingList  {
     margin-left: 10px;
     font-size: 30px;
     /* list-style:none; */
@@ -42,9 +43,39 @@ h1 {
 li{
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
-.test3{
-    background: red;
+h2 {
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px
 }
+
+
+
+
+.del{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:red
+}
+
+.btndone{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:green
+    
+}
+
+
+.trash{
+    width:80%;
+}
+.plus{
+    width:95%;
+    text-align: center;
    
+}
