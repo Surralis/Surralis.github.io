@@ -6,6 +6,10 @@ let c= true
 n = 2
 
 $("#shoppingForm").on('submit', function(e){
+  if($("#addToList").val() ===""){
+    alert('Input can not be left blank');
+    e.preventDefault();
+  }else{ 
 	var text = $('#addToList').val();
   $('#shoppingList').append($('<li>'+text+ '<button class="del">Del</button><button class="done" id="On">Done</button> </li>'));
   $(".done").css("color","black")
@@ -18,7 +22,7 @@ $("#shoppingForm").on('submit', function(e){
   a += 1
   
 
-});
+}});
 
 
 /* $('#shoppingList').on('dblclick', 'li', function(){
