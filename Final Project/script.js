@@ -13,6 +13,8 @@
 //   $('#photo-description').text(data.description);
 
 
+
+
   let currentPhoto = 0;
 
   let imagesPhoto = ['Elephant.jpg','Lightbringer.jpg','Road.jpg','Sphere.jpg','TreeOfLife.jpg'];
@@ -69,17 +71,31 @@ $('#left-arrow').click(() => {
 
 
 imagesPhoto.forEach((item, index) => {
-  $('#prev').append(`<div class="box" data-index="${index}"> 
+  $('#prev').append(`<div class="box" data-index="${index}">
   <div class="thumbnail">
-  <div class="title">${imageThumbnails[index]}</div>
-</div>
- <img src=${item} id="show">
-  </div>`);
+    <img src=${item} id="show" data-index="${index}" >
   
+    <div class="title" >${imageThumbnails[index]}</div>
+    </div>
+  </div>`)
+  
+  $('.box').click((event) => {
+    let indexClicked = $(event.target).attr('data-index');
+
+    currentPhoto=parseInt(indexClicked);
+    loadPhoto(currentPhoto);
+
+    console.log(indexClicked)
+  })
   }); 
 
-  
+ 
+    // currentPhoto= parseInt(indexClicked)
+    // loadPhoto(currentPhoto);
+    // console.log(currentPhoto)});
 
 
-
-
+    // <div class="title" >${imageThumbnails[index]}</div>
+    //<div class="thumbnail">
+    // </div>
+    //  <img src=${item} id="show">
