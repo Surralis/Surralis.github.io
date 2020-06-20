@@ -13,7 +13,7 @@ let a = $(".color").val();
 
 $('.button3').on('click', () => {
   $("button").css("background", $(".color").val() ,
-  $(".button3").prop('disabled', true))
+  $(".button3").prop('disabled', false))
   });
 
 $('.reset').on('click', () => {
