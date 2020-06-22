@@ -39,6 +39,7 @@ let loadPhoto = (photoNumber) => {
   $('#photo').attr('src', imagesPhoto[currentPhoto])
   $('#photo-title').html(imagesTitle[currentPhoto])
   $('#photo-description').html(imagesDescription[currentPhoto])
+  
 
 
   // ...
@@ -79,15 +80,19 @@ imagesPhoto.forEach((item, index) => {
     </div>
   </div>`)
   
-  $('.box').click((event) => {
-    let indexClicked = $(event.target).attr('data-index');
+  })
 
+  
+  $('.box').click((event) => {
+   
+    let indexClicked = $(event.target).attr('data-index');
     currentPhoto=parseInt(indexClicked);
     loadPhoto(currentPhoto);
+    console.log(currentPhoto)
+  });
 
-    console.log(indexClicked)
-  })
-  }); 
+
+
 
  
     // currentPhoto= parseInt(indexClicked)
